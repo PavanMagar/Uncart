@@ -43,7 +43,7 @@ h1, h2, h3, h4{
 
 
 header{
-    max-height: 110px;
+    max-height: 180px;
     border-radius: 0 0 12% 12%;
     background-color: var(--blue-500);
 }
@@ -78,7 +78,7 @@ header{
 }
 
 .search-bar {
-    margin-top: 1rem;
+    margin: 1rem 0;
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -154,6 +154,8 @@ main{
     padding: 0.7rem 0.8rem;
     border-radius: 0.9rem;
     margin: 0 0.5rem;
+    box-shadow: rgba(216, 219, 222, 0.656) 4px 12px 100px;
+    border: 1px solid var(--gray-100);
 }
 
 .category h2{
